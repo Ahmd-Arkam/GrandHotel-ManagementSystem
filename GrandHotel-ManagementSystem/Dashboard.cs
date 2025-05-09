@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using GrandHotel_ManagementSystem.controllers;
 
 namespace GrandHotel_ManagementSystem
 {
@@ -71,6 +72,19 @@ namespace GrandHotel_ManagementSystem
             btnDashboard.Checked=false;
             btnCheckOut.Checked=false;
             lblChngeTittle.Text = "Staff Dashboard";
+
+        }
+
+        private void btnCheckOut_Click(object sender, EventArgs e)
+        {
+            btnCheckOut.Checked=true;
+            ceckOutController1.Visible=true;
+            ceckOutController1.BringToFront();
+            btnRoom.Checked = false;
+            btnBooking.Checked = false;
+            btnDashboard.Checked = false;
+            btnStaff.Checked = false;
+            lblChngeTittle.Text = "Check Out Dashboard";
 
         }
     }

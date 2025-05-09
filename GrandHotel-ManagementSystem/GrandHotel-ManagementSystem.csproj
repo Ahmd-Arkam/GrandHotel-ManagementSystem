@@ -58,6 +58,12 @@
     <Compile Include="controllers\bookingController.Designer.cs">
       <DependentUpon>bookingController.cs</DependentUpon>
     </Compile>
+    <Compile Include="controllers\CeckOutController.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="controllers\CeckOutController.Designer.cs">
+      <DependentUpon>CeckOutController.cs</DependentUpon>
+    </Compile>
     <Compile Include="controllers\RoomController.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -92,6 +98,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="controllers\bookingController.resx">
       <DependentUpon>bookingController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controllers\CeckOutController.resx">
+      <DependentUpon>CeckOutController.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="controllers\RoomController.resx">
       <DependentUpon>RoomController.cs</DependentUpon>
