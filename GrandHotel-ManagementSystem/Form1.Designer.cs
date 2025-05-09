@@ -40,7 +40,7 @@
             // 
             // btnLogin
             // 
-            this.btnLogin.BorderRadius = 20;
+            this.btnLogin.BorderRadius = 18;
             this.btnLogin.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnLogin.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnLogin.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -53,7 +53,7 @@
             this.btnLogin.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnLogin.HoverState.ForeColor = System.Drawing.Color.Black;
             this.btnLogin.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnLogin.Location = new System.Drawing.Point(71, 485);
+            this.btnLogin.Location = new System.Drawing.Point(70, 482);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(321, 44);
             this.btnLogin.TabIndex = 14;
@@ -63,7 +63,7 @@
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(109, 532);
+            this.linkLabel1.Location = new System.Drawing.Point(180, 538);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(101, 16);
             this.linkLabel1.TabIndex = 13;
@@ -86,14 +86,14 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(59, 254);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 25);
+            this.label1.Size = new System.Drawing.Size(119, 25);
             this.label1.TabIndex = 11;
-            this.label1.Text = "Name";
+            this.label1.Text = "User Name";
             // 
             // txtPassword
             // 
             this.txtPassword.BorderColor = System.Drawing.Color.Black;
-            this.txtPassword.BorderRadius = 20;
+            this.txtPassword.BorderRadius = 15;
             this.txtPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtPassword.DefaultText = "";
             this.txtPassword.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -115,7 +115,7 @@
             // txtName
             // 
             this.txtName.BorderColor = System.Drawing.Color.Black;
-            this.txtName.BorderRadius = 20;
+            this.txtName.BorderRadius = 15;
             this.txtName.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtName.DefaultText = "";
             this.txtName.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));

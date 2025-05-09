@@ -34,6 +34,12 @@
             this.pnlDasboardShow = new Guna.UI2.WinForms.Guna2Panel();
             this.lblChngeTittle = new System.Windows.Forms.Label();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.staffController1 = new GrandHotel_ManagementSystem.controllers.StaffController();
+            this.roomController1 = new GrandHotel_ManagementSystem.controllers.RoomController();
+            this.bookingController1 = new GrandHotel_ManagementSystem.controllers.bookingController();
             this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.txtSearchBox = new Guna.UI2.WinForms.Guna2TextBox();
@@ -43,12 +49,6 @@
             this.btnBooking = new Guna.UI2.WinForms.Guna2Button();
             this.btnDashboard = new Guna.UI2.WinForms.Guna2Button();
             this.picDLogo = new System.Windows.Forms.PictureBox();
-            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.staffController1 = new GrandHotel_ManagementSystem.controllers.StaffController();
-            this.roomController1 = new GrandHotel_ManagementSystem.controllers.RoomController();
-            this.bookingController1 = new GrandHotel_ManagementSystem.controllers.bookingController();
             this.controllDashboard1 = new GrandHotel_ManagementSystem.controllers.ControllDashboard();
             this.pnlSideBar.SuspendLayout();
             this.pnlDashboard.SuspendLayout();
@@ -88,10 +88,10 @@
             // 
             // pnlDasboardShow
             // 
+            this.pnlDasboardShow.Controls.Add(this.controllDashboard1);
             this.pnlDasboardShow.Controls.Add(this.staffController1);
             this.pnlDasboardShow.Controls.Add(this.roomController1);
             this.pnlDasboardShow.Controls.Add(this.bookingController1);
-            this.pnlDasboardShow.Controls.Add(this.controllDashboard1);
             this.pnlDasboardShow.Location = new System.Drawing.Point(28, 155);
             this.pnlDasboardShow.Name = "pnlDasboardShow";
             this.pnlDasboardShow.Size = new System.Drawing.Size(1187, 672);
@@ -111,6 +111,48 @@
             // 
             this.guna2Elipse1.BorderRadius = 20;
             this.guna2Elipse1.TargetControl = this.pnlDasboardShow;
+            // 
+            // guna2Elipse2
+            // 
+            this.guna2Elipse2.BorderRadius = 20;
+            this.guna2Elipse2.TargetControl = this.pnlDasboardShow;
+            // 
+            // guna2Elipse3
+            // 
+            this.guna2Elipse3.BorderRadius = 20;
+            this.guna2Elipse3.TargetControl = this.pnlDasboardShow;
+            // 
+            // guna2Elipse4
+            // 
+            this.guna2Elipse4.BorderRadius = 20;
+            this.guna2Elipse4.TargetControl = this.pnlDasboardShow;
+            // 
+            // staffController1
+            // 
+            this.staffController1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.staffController1.Location = new System.Drawing.Point(18, 16);
+            this.staffController1.Name = "staffController1";
+            this.staffController1.Size = new System.Drawing.Size(1185, 670);
+            this.staffController1.TabIndex = 3;
+            this.staffController1.Visible = false;
+            // 
+            // roomController1
+            // 
+            this.roomController1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.roomController1.Location = new System.Drawing.Point(18, 26);
+            this.roomController1.Name = "roomController1";
+            this.roomController1.Size = new System.Drawing.Size(1185, 670);
+            this.roomController1.TabIndex = 2;
+            this.roomController1.Visible = false;
+            // 
+            // bookingController1
+            // 
+            this.bookingController1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.bookingController1.Location = new System.Drawing.Point(18, 16);
+            this.bookingController1.Name = "bookingController1";
+            this.bookingController1.Size = new System.Drawing.Size(1185, 670);
+            this.bookingController1.TabIndex = 1;
+            this.bookingController1.Visible = false;
             // 
             // guna2CirclePictureBox2
             // 
@@ -180,7 +222,7 @@
             this.btnStaff.HoverState.Image = global::GrandHotel_ManagementSystem.Properties.Resources.icons8_staff_50;
             this.btnStaff.Image = global::GrandHotel_ManagementSystem.Properties.Resources.staff_white;
             this.btnStaff.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnStaff.Location = new System.Drawing.Point(30, 446);
+            this.btnStaff.Location = new System.Drawing.Point(30, 372);
             this.btnStaff.Name = "btnStaff";
             this.btnStaff.Size = new System.Drawing.Size(198, 68);
             this.btnStaff.TabIndex = 5;
@@ -204,7 +246,7 @@
             this.btnRoom.HoverState.Image = global::GrandHotel_ManagementSystem.Properties.Resources.icons8_bed_50;
             this.btnRoom.Image = global::GrandHotel_ManagementSystem.Properties.Resources.bed_white;
             this.btnRoom.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnRoom.Location = new System.Drawing.Point(30, 372);
+            this.btnRoom.Location = new System.Drawing.Point(30, 298);
             this.btnRoom.Name = "btnRoom";
             this.btnRoom.Size = new System.Drawing.Size(198, 68);
             this.btnRoom.TabIndex = 4;
@@ -228,7 +270,7 @@
             this.btnCheckOut.HoverState.Image = global::GrandHotel_ManagementSystem.Properties.Resources.icons8_check_dollar_50;
             this.btnCheckOut.Image = global::GrandHotel_ManagementSystem.Properties.Resources.check_whote;
             this.btnCheckOut.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnCheckOut.Location = new System.Drawing.Point(30, 298);
+            this.btnCheckOut.Location = new System.Drawing.Point(30, 446);
             this.btnCheckOut.Name = "btnCheckOut";
             this.btnCheckOut.Size = new System.Drawing.Size(198, 68);
             this.btnCheckOut.TabIndex = 3;
@@ -292,55 +334,13 @@
             this.picDLogo.TabIndex = 0;
             this.picDLogo.TabStop = false;
             // 
-            // guna2Elipse2
-            // 
-            this.guna2Elipse2.BorderRadius = 20;
-            this.guna2Elipse2.TargetControl = this.pnlDasboardShow;
-            // 
-            // guna2Elipse3
-            // 
-            this.guna2Elipse3.BorderRadius = 20;
-            this.guna2Elipse3.TargetControl = this.pnlDasboardShow;
-            // 
-            // guna2Elipse4
-            // 
-            this.guna2Elipse4.BorderRadius = 20;
-            this.guna2Elipse4.TargetControl = this.pnlDasboardShow;
-            // 
-            // staffController1
-            // 
-            this.staffController1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.staffController1.Location = new System.Drawing.Point(18, 16);
-            this.staffController1.Name = "staffController1";
-            this.staffController1.Size = new System.Drawing.Size(1185, 670);
-            this.staffController1.TabIndex = 3;
-            this.staffController1.Visible = false;
-            // 
-            // roomController1
-            // 
-            this.roomController1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.roomController1.Location = new System.Drawing.Point(7, 11);
-            this.roomController1.Name = "roomController1";
-            this.roomController1.Size = new System.Drawing.Size(1185, 670);
-            this.roomController1.TabIndex = 2;
-            this.roomController1.Visible = false;
-            // 
-            // bookingController1
-            // 
-            this.bookingController1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bookingController1.Location = new System.Drawing.Point(3, 11);
-            this.bookingController1.Name = "bookingController1";
-            this.bookingController1.Size = new System.Drawing.Size(1185, 670);
-            this.bookingController1.TabIndex = 1;
-            this.bookingController1.Visible = false;
-            // 
             // controllDashboard1
             // 
             this.controllDashboard1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.controllDashboard1.Location = new System.Drawing.Point(7, 11);
+            this.controllDashboard1.Location = new System.Drawing.Point(18, 16);
             this.controllDashboard1.Name = "controllDashboard1";
             this.controllDashboard1.Size = new System.Drawing.Size(1185, 670);
-            this.controllDashboard1.TabIndex = 0;
+            this.controllDashboard1.TabIndex = 4;
             this.controllDashboard1.Visible = false;
             // 
             // frmDashboard
@@ -381,12 +381,12 @@
         private Guna.UI2.WinForms.Guna2TextBox txtSearchBox;
         private Guna.UI2.WinForms.Guna2Panel pnlDasboardShow;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
-        private controllers.ControllDashboard controllDashboard1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
         private controllers.bookingController bookingController1;
         private controllers.RoomController roomController1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse3;
         private controllers.StaffController staffController1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse4;
+        private controllers.ControllDashboard controllDashboard1;
     }
 }

@@ -186,5 +186,17 @@
   <ItemGroup>
     <None Include="Resources\staff-white.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SlideShow01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SlideShow02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SlideShow03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SlideShow04.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

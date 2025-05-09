@@ -28,7 +28,7 @@ namespace GrandHotel_ManagementSystem
             btnRoom.Checked = false;
             btnStaff.Checked = false;
             btnCheckOut.Checked = false;
-            lblChngeTittle.Text = "Dashboard";
+            lblChngeTittle.Text = "Home Dashboard";
         }
 
         private void frmDashboard_Load(object sender, EventArgs e)
@@ -45,7 +45,7 @@ namespace GrandHotel_ManagementSystem
             btnRoom.Checked = false;
             btnStaff.Checked = false;
             btnCheckOut.Checked = false;
-            lblChngeTittle.Text = "Booking";
+            lblChngeTittle.Text = "Booking  Dashboard";
         }
 
         private void btnRoom_Click(object sender, EventArgs e)
@@ -57,7 +57,7 @@ namespace GrandHotel_ManagementSystem
             btnBooking.Checked = false;
             btnStaff.Checked = false;
             btnCheckOut.Checked = false;
-            lblChngeTittle.Text = "Room";
+            lblChngeTittle.Text = "Room Dashboard";
 
         }
 
@@ -70,7 +70,7 @@ namespace GrandHotel_ManagementSystem
             btnBooking.Checked=false;
             btnDashboard.Checked=false;
             btnCheckOut.Checked=false;
-            lblChngeTittle.Text = "Staff";
+            lblChngeTittle.Text = "Staff Dashboard";
 
         }
     }

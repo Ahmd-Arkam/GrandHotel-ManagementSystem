@@ -26,5 +26,43 @@ namespace GrandHotel_ManagementSystem.controllers
         {
 
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (pitSlidShow01.Visible == true)
+            {
+                pitSlidShow01.Visible = false;
+                pitSlidShow02.Visible = true;
+            }
+            else if (pitSlidShow02.Visible == true)
+            {
+                pitSlidShow02.Visible = false;
+                pitSlidShow03.Visible = true;
+            }
+            else if (pitSlidShow03.Visible == true)
+            {
+                pitSlidShow03.Visible = false;
+                pitSlidShow04.Visible = true;
+            }
+            else if (pitSlidShow04.Visible == true) { 
+            pitSlidShow04 .Visible = false;
+                pitSlidShow01.Visible=true;
+            }
+        }
+
+        private void ControllDashboard_Load(object sender, EventArgs e)
+        {
+            timer1.Start(); 
+        }
+
+        private void label22_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
