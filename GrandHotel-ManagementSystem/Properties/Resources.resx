@@ -124,6 +124,9 @@
   <data name="icons8-search-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-search-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="SlideShow04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SlideShow04.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8-home-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-home-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -181,7 +184,7 @@
   <data name="SlideShow02" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SlideShow02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SlideShow04" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SlideShow04.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Gantt-Chart-Template-Microsoft-Office" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gantt-Chart-Template-Microsoft-Office.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

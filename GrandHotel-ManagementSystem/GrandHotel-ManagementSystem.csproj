@@ -207,5 +207,8 @@
   <ItemGroup>
     <None Include="Resources\SlideShow04.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gantt-Chart-Template-Microsoft-Office.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

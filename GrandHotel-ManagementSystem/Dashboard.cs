@@ -47,6 +47,7 @@ namespace GrandHotel_ManagementSystem
             btnStaff.Checked = false;
             btnCheckOut.Checked = false;
             lblChngeTittle.Text = "Booking  Dashboard";
+            controllDashboard1.Visible = false;
         }
 
         private void btnRoom_Click(object sender, EventArgs e)

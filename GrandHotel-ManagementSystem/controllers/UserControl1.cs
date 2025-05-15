@@ -64,5 +64,25 @@ namespace GrandHotel_ManagementSystem.controllers
         {
 
         }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pitSlidShow02_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

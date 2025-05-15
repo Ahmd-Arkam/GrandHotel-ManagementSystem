@@ -143,6 +143,16 @@ namespace GrandHotel_ManagementSystem.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Gantt_Chart_Template_Microsoft_Office {
+            get {
+                object obj = ResourceManager.GetObject("Gantt-Chart-Template-Microsoft-Office", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Grand_Hotel2323 {
             get {
                 object obj = ResourceManager.GetObject("Grand Hotel2323", resourceCulture);
