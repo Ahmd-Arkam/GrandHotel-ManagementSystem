@@ -21,5 +21,10 @@ namespace GrandHotel_ManagementSystem.controllers
         {
 
         }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
