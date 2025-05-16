@@ -30,33 +30,29 @@
         {
             this.components = new System.ComponentModel.Container();
             this.pnlSideBar = new Guna.UI2.WinForms.Guna2Panel();
-            this.pnlDashboard = new Guna.UI2.WinForms.Guna2Panel();
-            this.pnlDasboardShow = new Guna.UI2.WinForms.Guna2Panel();
-            this.ceckOutController1 = new GrandHotel_ManagementSystem.controllers.CeckOutController();
-            this.staffController1 = new GrandHotel_ManagementSystem.controllers.StaffController();
-            this.roomController1 = new GrandHotel_ManagementSystem.controllers.RoomController();
-            this.bookingController1 = new GrandHotel_ManagementSystem.controllers.bookingController();
-            this.lblChngeTittle = new System.Windows.Forms.Label();
-            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.txtSearchBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnStaff = new Guna.UI2.WinForms.Guna2Button();
             this.btnRoom = new Guna.UI2.WinForms.Guna2Button();
             this.btnCheckOut = new Guna.UI2.WinForms.Guna2Button();
             this.btnBooking = new Guna.UI2.WinForms.Guna2Button();
             this.btnDashboard = new Guna.UI2.WinForms.Guna2Button();
             this.picDLogo = new System.Windows.Forms.PictureBox();
-            this.controllDashboard1 = new GrandHotel_ManagementSystem.controllers.ControllDashboard();
+            this.pnlDashboard = new Guna.UI2.WinForms.Guna2Panel();
+            this.pnlDasboardShow = new Guna.UI2.WinForms.Guna2Panel();
+            this.lblChngeTittle = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.txtSearchBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.bookingController1 = new GrandHotel_ManagementSystem.controllers.bookingController();
             this.pnlSideBar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picDLogo)).BeginInit();
             this.pnlDashboard.SuspendLayout();
             this.pnlDasboardShow.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDLogo)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlSideBar
@@ -71,149 +67,6 @@
             this.pnlSideBar.Name = "pnlSideBar";
             this.pnlSideBar.Size = new System.Drawing.Size(258, 846);
             this.pnlSideBar.TabIndex = 2;
-            // 
-            // pnlDashboard
-            // 
-            this.pnlDashboard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.pnlDashboard.BorderColor = System.Drawing.Color.White;
-            this.pnlDashboard.Controls.Add(this.pnlDasboardShow);
-            this.pnlDashboard.Controls.Add(this.lblChngeTittle);
-            this.pnlDashboard.Controls.Add(this.guna2CirclePictureBox2);
-            this.pnlDashboard.Controls.Add(this.guna2CirclePictureBox1);
-            this.pnlDashboard.Controls.Add(this.txtSearchBox);
-            this.pnlDashboard.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.pnlDashboard.Location = new System.Drawing.Point(265, -3);
-            this.pnlDashboard.Name = "pnlDashboard";
-            this.pnlDashboard.Size = new System.Drawing.Size(1245, 861);
-            this.pnlDashboard.TabIndex = 3;
-            // 
-            // pnlDasboardShow
-            // 
-            this.pnlDasboardShow.Controls.Add(this.controllDashboard1);
-            this.pnlDasboardShow.Controls.Add(this.ceckOutController1);
-            this.pnlDasboardShow.Controls.Add(this.staffController1);
-            this.pnlDasboardShow.Controls.Add(this.roomController1);
-            this.pnlDasboardShow.Controls.Add(this.bookingController1);
-            this.pnlDasboardShow.Location = new System.Drawing.Point(28, 155);
-            this.pnlDasboardShow.Name = "pnlDasboardShow";
-            this.pnlDasboardShow.Size = new System.Drawing.Size(1187, 672);
-            this.pnlDasboardShow.TabIndex = 5;
-            // 
-            // ceckOutController1
-            // 
-            this.ceckOutController1.Location = new System.Drawing.Point(18, 26);
-            this.ceckOutController1.Name = "ceckOutController1";
-            this.ceckOutController1.Size = new System.Drawing.Size(1185, 660);
-            this.ceckOutController1.TabIndex = 5;
-            this.ceckOutController1.Visible = false;
-            // 
-            // staffController1
-            // 
-            this.staffController1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.staffController1.Location = new System.Drawing.Point(18, 16);
-            this.staffController1.Name = "staffController1";
-            this.staffController1.Size = new System.Drawing.Size(1185, 670);
-            this.staffController1.TabIndex = 3;
-            this.staffController1.Visible = false;
-            // 
-            // roomController1
-            // 
-            this.roomController1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.roomController1.Location = new System.Drawing.Point(18, 26);
-            this.roomController1.Name = "roomController1";
-            this.roomController1.Size = new System.Drawing.Size(1185, 670);
-            this.roomController1.TabIndex = 2;
-            this.roomController1.Visible = false;
-            // 
-            // bookingController1
-            // 
-            this.bookingController1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bookingController1.Location = new System.Drawing.Point(18, 16);
-            this.bookingController1.Name = "bookingController1";
-            this.bookingController1.Size = new System.Drawing.Size(1185, 670);
-            this.bookingController1.TabIndex = 1;
-            this.bookingController1.Visible = false;
-            // 
-            // lblChngeTittle
-            // 
-            this.lblChngeTittle.AutoSize = true;
-            this.lblChngeTittle.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblChngeTittle.Location = new System.Drawing.Point(24, 40);
-            this.lblChngeTittle.Name = "lblChngeTittle";
-            this.lblChngeTittle.Size = new System.Drawing.Size(186, 38);
-            this.lblChngeTittle.TabIndex = 4;
-            this.lblChngeTittle.Text = "Dashboard";
-            // 
-            // guna2Elipse1
-            // 
-            this.guna2Elipse1.BorderRadius = 20;
-            this.guna2Elipse1.TargetControl = this.pnlDasboardShow;
-            // 
-            // guna2Elipse2
-            // 
-            this.guna2Elipse2.BorderRadius = 20;
-            this.guna2Elipse2.TargetControl = this.pnlDasboardShow;
-            // 
-            // guna2Elipse3
-            // 
-            this.guna2Elipse3.BorderRadius = 20;
-            this.guna2Elipse3.TargetControl = this.pnlDasboardShow;
-            // 
-            // guna2Elipse4
-            // 
-            this.guna2Elipse4.BorderRadius = 20;
-            this.guna2Elipse4.TargetControl = this.pnlDasboardShow;
-            // 
-            // guna2CirclePictureBox2
-            // 
-            this.guna2CirclePictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CirclePictureBox2.Image = global::GrandHotel_ManagementSystem.Properties.Resources.am_a_19_year_old_multimedia_artist_student_from_manila__21;
-            this.guna2CirclePictureBox2.ImageRotate = 0F;
-            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(1178, 43);
-            this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
-            this.guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(37, 39);
-            this.guna2CirclePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2CirclePictureBox2.TabIndex = 3;
-            this.guna2CirclePictureBox2.TabStop = false;
-            this.guna2CirclePictureBox2.UseTransparentBackground = true;
-            // 
-            // guna2CirclePictureBox1
-            // 
-            this.guna2CirclePictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CirclePictureBox1.ErrorImage = null;
-            this.guna2CirclePictureBox1.Image = global::GrandHotel_ManagementSystem.Properties.Resources._625210;
-            this.guna2CirclePictureBox1.ImageRotate = 0F;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(1118, 44);
-            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
-            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(37, 39);
-            this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2CirclePictureBox1.TabIndex = 2;
-            this.guna2CirclePictureBox1.TabStop = false;
-            // 
-            // txtSearchBox
-            // 
-            this.txtSearchBox.BorderRadius = 20;
-            this.txtSearchBox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtSearchBox.DefaultText = "";
-            this.txtSearchBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtSearchBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtSearchBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtSearchBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtSearchBox.FillColor = System.Drawing.Color.WhiteSmoke;
-            this.txtSearchBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSearchBox.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txtSearchBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSearchBox.IconLeft = global::GrandHotel_ManagementSystem.Properties.Resources.icons8_search_32;
-            this.txtSearchBox.IconLeftOffset = new System.Drawing.Point(10, 0);
-            this.txtSearchBox.Location = new System.Drawing.Point(649, 38);
-            this.txtSearchBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txtSearchBox.Name = "txtSearchBox";
-            this.txtSearchBox.PlaceholderText = "Search item";
-            this.txtSearchBox.SelectedText = "";
-            this.txtSearchBox.Size = new System.Drawing.Size(435, 48);
-            this.txtSearchBox.TabIndex = 1;
             // 
             // btnStaff
             // 
@@ -345,14 +198,117 @@
             this.picDLogo.TabIndex = 0;
             this.picDLogo.TabStop = false;
             // 
-            // controllDashboard1
+            // pnlDashboard
             // 
-            this.controllDashboard1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.controllDashboard1.Location = new System.Drawing.Point(-1, 3);
-            this.controllDashboard1.Name = "controllDashboard1";
-            this.controllDashboard1.Size = new System.Drawing.Size(1185, 670);
-            this.controllDashboard1.TabIndex = 6;
-            this.controllDashboard1.Visible = false;
+            this.pnlDashboard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pnlDashboard.BorderColor = System.Drawing.Color.White;
+            this.pnlDashboard.Controls.Add(this.pnlDasboardShow);
+            this.pnlDashboard.Controls.Add(this.lblChngeTittle);
+            this.pnlDashboard.Controls.Add(this.guna2CirclePictureBox2);
+            this.pnlDashboard.Controls.Add(this.guna2CirclePictureBox1);
+            this.pnlDashboard.Controls.Add(this.txtSearchBox);
+            this.pnlDashboard.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pnlDashboard.Location = new System.Drawing.Point(265, -3);
+            this.pnlDashboard.Name = "pnlDashboard";
+            this.pnlDashboard.Size = new System.Drawing.Size(1245, 861);
+            this.pnlDashboard.TabIndex = 3;
+            // 
+            // pnlDasboardShow
+            // 
+            this.pnlDasboardShow.Controls.Add(this.bookingController1);
+            this.pnlDasboardShow.Location = new System.Drawing.Point(28, 93);
+            this.pnlDasboardShow.Name = "pnlDasboardShow";
+            this.pnlDasboardShow.Size = new System.Drawing.Size(1214, 758);
+            this.pnlDasboardShow.TabIndex = 5;
+            // 
+            // lblChngeTittle
+            // 
+            this.lblChngeTittle.AutoSize = true;
+            this.lblChngeTittle.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblChngeTittle.Location = new System.Drawing.Point(24, 40);
+            this.lblChngeTittle.Name = "lblChngeTittle";
+            this.lblChngeTittle.Size = new System.Drawing.Size(186, 38);
+            this.lblChngeTittle.TabIndex = 4;
+            this.lblChngeTittle.Text = "Dashboard";
+            // 
+            // guna2CirclePictureBox2
+            // 
+            this.guna2CirclePictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox2.Image = global::GrandHotel_ManagementSystem.Properties.Resources.am_a_19_year_old_multimedia_artist_student_from_manila__21;
+            this.guna2CirclePictureBox2.ImageRotate = 0F;
+            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(1178, 43);
+            this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
+            this.guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(37, 39);
+            this.guna2CirclePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2CirclePictureBox2.TabIndex = 3;
+            this.guna2CirclePictureBox2.TabStop = false;
+            this.guna2CirclePictureBox2.UseTransparentBackground = true;
+            // 
+            // guna2CirclePictureBox1
+            // 
+            this.guna2CirclePictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox1.ErrorImage = null;
+            this.guna2CirclePictureBox1.Image = global::GrandHotel_ManagementSystem.Properties.Resources._625210;
+            this.guna2CirclePictureBox1.ImageRotate = 0F;
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(1118, 44);
+            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
+            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(37, 39);
+            this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2CirclePictureBox1.TabIndex = 2;
+            this.guna2CirclePictureBox1.TabStop = false;
+            // 
+            // txtSearchBox
+            // 
+            this.txtSearchBox.BorderRadius = 20;
+            this.txtSearchBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtSearchBox.DefaultText = "";
+            this.txtSearchBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtSearchBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtSearchBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtSearchBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtSearchBox.FillColor = System.Drawing.Color.WhiteSmoke;
+            this.txtSearchBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtSearchBox.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtSearchBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtSearchBox.IconLeft = global::GrandHotel_ManagementSystem.Properties.Resources.icons8_search_32;
+            this.txtSearchBox.IconLeftOffset = new System.Drawing.Point(10, 0);
+            this.txtSearchBox.Location = new System.Drawing.Point(649, 38);
+            this.txtSearchBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtSearchBox.Name = "txtSearchBox";
+            this.txtSearchBox.PlaceholderText = "Search item";
+            this.txtSearchBox.SelectedText = "";
+            this.txtSearchBox.Size = new System.Drawing.Size(435, 48);
+            this.txtSearchBox.TabIndex = 1;
+            // 
+            // guna2Elipse1
+            // 
+            this.guna2Elipse1.BorderRadius = 20;
+            this.guna2Elipse1.TargetControl = this.pnlDasboardShow;
+            // 
+            // guna2Elipse4
+            // 
+            this.guna2Elipse4.BorderRadius = 20;
+            this.guna2Elipse4.TargetControl = this.pnlDasboardShow;
+            // 
+            // guna2Elipse3
+            // 
+            this.guna2Elipse3.BorderRadius = 20;
+            this.guna2Elipse3.TargetControl = this.pnlDasboardShow;
+            // 
+            // guna2Elipse2
+            // 
+            this.guna2Elipse2.BorderRadius = 20;
+            this.guna2Elipse2.TargetControl = this.pnlDasboardShow;
+            // 
+            // bookingController1
+            // 
+            this.bookingController1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.bookingController1.Location = new System.Drawing.Point(3, 62);
+            this.bookingController1.Name = "bookingController1";
+            this.bookingController1.Size = new System.Drawing.Size(1185, 670);
+            this.bookingController1.TabIndex = 0;
             // 
             // frmDashboard
             // 
@@ -366,12 +322,12 @@
             this.Text = "Dashboard";
             this.Load += new System.EventHandler(this.frmDashboard_Load);
             this.pnlSideBar.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picDLogo)).EndInit();
             this.pnlDashboard.ResumeLayout(false);
             this.pnlDashboard.PerformLayout();
             this.pnlDasboardShow.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDLogo)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -392,13 +348,9 @@
         private Guna.UI2.WinForms.Guna2TextBox txtSearchBox;
         private Guna.UI2.WinForms.Guna2Panel pnlDasboardShow;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse4;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse3;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
         private controllers.bookingController bookingController1;
-        private controllers.RoomController roomController1;
-        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse3;
-        private controllers.StaffController staffController1;
-        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse4;
-        private controllers.CeckOutController ceckOutController1;
-        private controllers.ControllDashboard controllDashboard1;
     }
 }

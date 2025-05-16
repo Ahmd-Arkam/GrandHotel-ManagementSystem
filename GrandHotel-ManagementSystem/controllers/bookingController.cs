@@ -26,5 +26,39 @@ namespace GrandHotel_ManagementSystem.controllers
         {
 
         }
+
+        private void btnAddCustomer_Click(object sender, EventArgs e)
+        {
+            //btnAddCustomer.Checked = true;
+            //AddCustomerGroup1.Visible = true;
+            //btnCustomerView.Checked = false;
+            //customerView1.Visible = false;
+            //btnCustomerHistory.Checked = false;
+            //customerHistory1.Visible = false;
+
+        }
+
+        private void btnCustomerView_Click(object sender, EventArgs e)
+        {
+            //btnCustomerView.Checked = true;
+            //customerView1.Visible = true;   
+            //customerView1.BringToFront();
+            //btnAddCustomer.Checked = false;
+            //AddCustomerGroup1.Visible = false;
+            //btnCustomerHistory.Checked = false;
+
+        }
+
+        private void btnCustomerHistory_Click(object sender, EventArgs e)
+        {
+            //btnCustomerHistory.Checked=true;
+            //customerHistory1.Visible=true;
+            //customerHistory1.BringToFront();
+            //btnCustomerView.Checked=false;
+            //btnAddCustomer.Checked = false;
+            //AddCustomerGroup1.Visible = false;
+            //customerView1.Visible = false;
+            //customerHistory1.Visible = false;
+        }
     }
 }
