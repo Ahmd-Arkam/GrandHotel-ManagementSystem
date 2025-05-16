@@ -309,6 +309,7 @@
             this.bookingController1.Name = "bookingController1";
             this.bookingController1.Size = new System.Drawing.Size(1185, 670);
             this.bookingController1.TabIndex = 0;
+            this.bookingController1.Visible = false;
             // 
             // frmDashboard
             // 
