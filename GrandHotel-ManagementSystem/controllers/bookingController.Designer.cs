@@ -45,13 +45,13 @@
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.AddCustomerGroup1 = new Guna.UI2.WinForms.Guna2GroupBox();
-            this.CustomerPnl = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2TextBox8 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.label10 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.guna2TextBox6 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox7 = new Guna.UI2.WinForms.Guna2TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.guna2TextBox8 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label10 = new System.Windows.Forms.Label();
+            this.CustomerPnl = new Guna.UI2.WinForms.Guna2Panel();
             this.btnCustomerView = new Guna.UI2.WinForms.Guna2Button();
             this.btnAddCustomer = new Guna.UI2.WinForms.Guna2Button();
             this.btnCustomerHistory = new Guna.UI2.WinForms.Guna2Button();
@@ -232,11 +232,11 @@
             // guna2DateTimePicker1
             // 
             this.guna2DateTimePicker1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2DateTimePicker1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(136)))), ((int)(((byte)(77)))));
             this.guna2DateTimePicker1.BorderRadius = 15;
             this.guna2DateTimePicker1.Checked = true;
-            this.guna2DateTimePicker1.FillColor = System.Drawing.Color.Black;
             this.guna2DateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2DateTimePicker1.ForeColor = System.Drawing.Color.White;
+            this.guna2DateTimePicker1.ForeColor = System.Drawing.Color.Black;
             this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.guna2DateTimePicker1.Location = new System.Drawing.Point(214, 496);
             this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
@@ -324,15 +324,36 @@
             this.AddCustomerGroup1.Text = "Fill Customer Detailes and Room Details";
             this.AddCustomerGroup1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // CustomerPnl
+            // guna2TextBox8
             // 
-            this.CustomerPnl.Controls.Add(this.customerHistory1);
-            this.CustomerPnl.Controls.Add(this.customerView1);
-            this.CustomerPnl.Controls.Add(this.AddCustomerGroup1);
-            this.CustomerPnl.Location = new System.Drawing.Point(0, 45);
-            this.CustomerPnl.Name = "CustomerPnl";
-            this.CustomerPnl.Size = new System.Drawing.Size(1185, 625);
-            this.CustomerPnl.TabIndex = 20;
+            this.guna2TextBox8.BackColor = System.Drawing.Color.Transparent;
+            this.guna2TextBox8.BorderRadius = 15;
+            this.guna2TextBox8.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox8.DefaultText = "";
+            this.guna2TextBox8.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox8.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox8.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox8.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox8.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2TextBox8.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox8.Location = new System.Drawing.Point(584, 405);
+            this.guna2TextBox8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox8.Name = "guna2TextBox8";
+            this.guna2TextBox8.PlaceholderText = "";
+            this.guna2TextBox8.SelectedText = "";
+            this.guna2TextBox8.Size = new System.Drawing.Size(346, 36);
+            this.guna2TextBox8.TabIndex = 19;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Location = new System.Drawing.Point(581, 375);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(41, 20);
+            this.label10.TabIndex = 20;
+            this.label10.Text = "Price";
             // 
             // label7
             // 
@@ -396,36 +417,15 @@
             this.label9.TabIndex = 18;
             this.label9.Text = "Room Type";
             // 
-            // guna2TextBox8
+            // CustomerPnl
             // 
-            this.guna2TextBox8.BackColor = System.Drawing.Color.Transparent;
-            this.guna2TextBox8.BorderRadius = 15;
-            this.guna2TextBox8.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox8.DefaultText = "";
-            this.guna2TextBox8.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox8.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox8.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox8.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox8.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox8.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox8.Location = new System.Drawing.Point(584, 405);
-            this.guna2TextBox8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.guna2TextBox8.Name = "guna2TextBox8";
-            this.guna2TextBox8.PlaceholderText = "";
-            this.guna2TextBox8.SelectedText = "";
-            this.guna2TextBox8.Size = new System.Drawing.Size(346, 36);
-            this.guna2TextBox8.TabIndex = 19;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Location = new System.Drawing.Point(581, 375);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(41, 20);
-            this.label10.TabIndex = 20;
-            this.label10.Text = "Price";
+            this.CustomerPnl.Controls.Add(this.customerHistory1);
+            this.CustomerPnl.Controls.Add(this.customerView1);
+            this.CustomerPnl.Controls.Add(this.AddCustomerGroup1);
+            this.CustomerPnl.Location = new System.Drawing.Point(0, 45);
+            this.CustomerPnl.Name = "CustomerPnl";
+            this.CustomerPnl.Size = new System.Drawing.Size(1185, 625);
+            this.CustomerPnl.TabIndex = 20;
             // 
             // btnCustomerView
             // 
@@ -511,7 +511,7 @@
             // 
             // customerView1
             // 
-            this.customerView1.Location = new System.Drawing.Point(24, 3);
+            this.customerView1.Location = new System.Drawing.Point(23, 3);
             this.customerView1.Name = "customerView1";
             this.customerView1.Size = new System.Drawing.Size(1131, 593);
             this.customerView1.TabIndex = 20;
@@ -573,7 +573,7 @@
         private Guna.UI2.WinForms.Guna2Button btnCustomerView;
         private Guna.UI2.WinForms.Guna2Button btnAddCustomer;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
-        private CustomerView customerView1;
         private CustomerHistory customerHistory1;
+        private CustomerView customerView1;
     }
 }

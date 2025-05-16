@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace GrandHotel_ManagementSystem
 {
     public partial class frmLogin: Form
@@ -29,6 +30,29 @@ namespace GrandHotel_ManagementSystem
                 frmDashboard dashbord = new frmDashboard();
                 dashbord.ShowDialog();
                 this.Close();
+            }
+        }
+
+        private void btnLogin_KeyPress(object sender, KeyPressEventArgs e)
+        {
+           
+        }
+
+        private void btnLogin_KeyDown(object sender, KeyEventArgs e)
+        {
+           
+        }
+
+        private void txtPassword_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                if (txtName.Text == "grand" && txtPassword.Text == "grand123")
+                {
+                    frmDashboard dashbord = new frmDashboard();
+                    dashbord.ShowDialog();
+                    this.Close();
+                }
             }
         }
     }
